@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon_io/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="nav">
+        <a href="#">APURVA KRISHNA SINGH</a>
+        <i class="fa-solid fa-arrow-up" onclick="locoScroll.scrollTo('#main')"></i>
+        <button class="resume-btn">
+            <a style="text-decoration: initial;" href="#" target="_blank" download="">get my resume offline</a>
+        </button>
+        <button class="resume-btn-prt">
+            <a style="text-decoration: initial;" href="#" target="_blank" download="">get resume</a>
+        </button>
+    </div>
+    <div id="main">
+        <div data-scroll-section id="page1">
+            <h1>Who is </h1>
+            <div id="image-div">
+                <img src="./aks.jpeg" alt="">
+            </div>
+        </div>
+        <div data-scroll-section id="page2">
+            <div id="name-div">
+                <h1>APURVA KRISHNA SINGH ? </h1>
+                <h1>APURVA KRISHNA SINGH ? </h1>
+                <h1>APURVA KRISHNA SINGH ? </h1>
+            </div>
+            <div id="intro-div">
+                <h1>Hi!</h1>
+                <h1>I'm APURVA, a full stack web developer and a freelance UI/UX designer. </h1>
+                <h1>I've been a part of <a target="_blank" href="#">xyz</a> for 2 years 
+            </div>
+        </div>
+        <div data-scroll-section id="page3">
+            <h3>Things I'm <span>good</span> at</h3>
+            <h5>skills, interests, passion and hobbies</h5>
+            <div class="box dev-box">
+                <h4>designing</h4>
+                <div class="elem-div">
+                    <!-- Add dot images here -->
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <!-- More dot images if needed -->
+                </div>
+            </div>
+            <div class="box des-box">
+                <h4>development</h4>
+                <div class="elem-div">
+                    <img class="dot1" src="./dot.png" alt="dot">
+                    <img class="dot1" src="./dot.png" alt="dot">
+                    <img class="dot1" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                    <img class="dot" src="./dot.png" alt="dot">
+                </div>
+
+            </div>
+        </div>
+        <div data-scroll-section id="page4">
+            <h2>crafted with <span>love</span>.</h2>
+            <h4>these are few of my recent works</h4>
+            <div id="work-sample">
+                <img src="./x.png" alt="">
+            </div>
+        </div>
+        <div data-scroll-section id="page6">
+            <h1>watch my <span>more</span> artwork.</h1>
+            <div id="artworks">
+                <a target="_blank" href="#">
+                    <h4>2023</h4>
+                    <h5>x</h5>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="#">
+                    <h4>2022</h4>
+                    <h5>y</h5>
+                    <div id="sliding-div"></div>
+                </a>
+            </div>
+        </div>
+        <section data-scroll-section class="page5">
+            <h1>you can get in touch <br>
+                with me via <span class="mail">
+                    <a target="_blank" href="#">mail</a>
+                </span> or
+                <span class="instagram">
+                    <a target="_blank" href="#">instagram</a>
+                </span> or <span class="linkedin">
+                    <a target="_blank" href="#">linkedIn</a></span>.
+            </h1>
+        </section>
+    </div>
+    <div class="cursor-circle"></div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js" integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
