@@ -43,14 +43,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 50px; /* Circle size */
-    height: 50px; /* Circle size */
-    border: 2px solid rgb(255, 255, 255); /* White border with transparency */
-    border-radius: 50%; /* Make it a circle */
-    pointer-events: none; /* Let clicks pass through the element */
-    transform: translate(-50%, -50%); /* Center the circle on the cursor */
+    width: 50px;
+    height: 50px; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    pointer-events: none; 
+    transform: translate(-50%, -50%); 
     transition: background 0.3s, transform 0.3s;
-    z-index: 1000; /* Ensure it's above other elements */
+    z-index: 1000; 
 }
 
 
@@ -307,13 +307,8 @@ body {
 
 #name-div h1 {
     font-size: 8vw;
-    /* background-color:yellow; */
     margin-right: 2vw;
     display: inline-block;
-    /* animation-name: namemoving; */
-    /* animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; */
 }
 
 @keyframes namemoving {
@@ -418,7 +413,7 @@ body {
     margin-right: 1vmax;
 }
 .box .dot1 {
-    height: 10px; /* Adjust the size as needed */
+    height: 10px;
     margin-right: 1vmax;
 }
 
@@ -471,7 +466,7 @@ body {
 }
 
 #work-sample img {
-    height: 13vmax;
+    height: 30vmax;
     box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.4);
 }
 
